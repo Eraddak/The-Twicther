@@ -1,0 +1,38 @@
+html {
+ background-image: url("ciel.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ color: #FFFFFF;
+ text-shadow: 0 0 5px #000000;
+}
+
+input {
+ border: 1px solid black;
+}
+
+#parcourir {
+ background-color: #CECECE;
+ color: black;
+}
+
+h1 {
+ font-size: 40px;
+}
+
+h3 {
+ font-size: 30px;
+}
+
+#project_name {
+ font-size: 70px;
+ color: #FFD000;
+ text-shadow: 0 0 5px #FF8000;
+}
