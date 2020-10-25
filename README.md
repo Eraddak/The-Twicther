@@ -2,7 +2,7 @@
 
 ![the twitcher image](./pictures/twitcher.png)
 
-The objective of this project was to create a AI that predict a bird's species from an image, this project is actually online at the following link : 
+The objective of this project was to create a AI that predict a bird's species from an image.
 
 
 ## The database
@@ -21,7 +21,7 @@ For us only one epoch was enough to get good results.
 
 The weights are saved in the *birds_model.pkl* file.
 
-Then we used Flask (https://palletsprojects.com/p/flask/) and Heroku (https://www.heroku.com/) to put the AI online.
+Then we used Flask (https://palletsprojects.com/p/flask/) to have a html interface.
 
 ## Requirements
 
@@ -34,6 +34,10 @@ If you want to use this project on your own computer, here are the requirements 
 **For** ***api.py***
 * flask
 * fastai
+
+## How to launch 
+
+Simply launch the api.py file and open the url the program provides you in your favorite web browser.
 
 ## Authors
 * **Cresson François**
