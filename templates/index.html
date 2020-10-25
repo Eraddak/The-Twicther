@@ -1,10 +1,14 @@
 <!doctype html>
+<head><link href="style.css" rel="stylesheet" type="text/css"></head>
+<body>
 <title>Upload new File</title>
-<h1>Upload new File</h1>
+<h1 id="project_name">The Twitcher</h1>
+<h1>Upload a bird image !</h1>
 <form method=post enctype=multipart/form-data>
-  <input type=file name=image>
+  <input id="parcourir" type=file name=image>
   <input type=submit value=Predict>
   <br>
   <h3>Certitude = {{prediction}}</h3>
   <h3>C'est un : {{pred}}</h3>
 </form>
+</body>
