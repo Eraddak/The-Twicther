@@ -15,7 +15,6 @@ app = Flask(__name__)
 
 learner = load_learner('./birds_model.pkl', cpu=True)
 
-# model = pickle.load(open(os.path.join(path, 'birds_model.pkl'), 'rb'))
 
 @app.route('/', methods=['GET', 'POST'])
 
